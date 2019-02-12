@@ -1,0 +1,87 @@
+#policiesAndTermsButton {
+    outline: none;
+    border: none;
+    text-align: left;
+	cursor: pointer;
+}
+
+.policiesAndTermsWindow {
+   
+}
+.policiesAndTermsButton:first-letter {
+    text-transform: uppercase;
+}
+.policiesAndTermsButton:active {
+    outline: none;
+}
+#policiesContainer {
+    bottom: 60px;
+    right: 10px;
+    position: absolute;
+    background-color: #FFFFFF;
+	color: #000;
+    box-shadow: 0 0 10px 0 rgba(101, 111, 119, 0.15);
+    border-radius: 5px;
+}
+
+.policiesAndTermsButtonEscapeContainer {
+     height: 25px; 
+     background-color: #8080808f;
+     width: 100%;
+}
+.closePoliciesWindow {
+    width: 20px;
+    float: right;
+    background-color: #e3e3e3 !important;
+    margin-top: 1px;
+}
+.policiesAndTermsLink {
+    display: block;
+	height: 16px; 
+	width: 152px; 
+	color: #808080 !important; 
+	font-family: "Source Sans Pro"; 
+	font-size: 12px; 
+	line-height: 15px; 
+}
+.policiesAndTermsLink:first-letter {
+    text-transform: uppercase;
+}
+.policiesAndTermsLink:hover {
+    color: #3686DF !important;
+}
+#arrowButton {
+    display: inline-block;
+    float: right;
+	margin-top: 2px;
+    margin-right: 8px;
+    line-height: 16px;
+    font-size: 16px;
+    cursor: pointer;
+	outline: 0;
+    border: none;
+}
+.linkContainer { height: 32px; padding-left: 8px; padding-top: 8px; border-bottom: 1px solid #F2F2F2; background-color: #FFFFFF; }
+
+.up {
+    border: solid black !important;
+    border-width: 0 2px 2px 0 !important;
+    padding: 3px;
+    top: 8px;
+    position: relative;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.justButtonContainer {
+    display: inline-block;
+    max-width: 164px;
+    overflow: hidden;
+}
+
+.policiesAndTermsButtonContainer {
+    padding: 5px;
+    display: inline-block;
+    min-height: 32px;
+    width: 200px;
+    border-radius: 5px;
+}
